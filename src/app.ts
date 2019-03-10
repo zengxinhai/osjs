@@ -7,7 +7,7 @@ import zxh from './lib';
 
 zxh.register('time');
 
-var refreshNameInterval = setInterval(() => {
+const refreshNameInterval = setInterval(() => {
   zxh.setState('time', Date.now());
 }, 1000);
 
